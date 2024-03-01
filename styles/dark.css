@@ -1,0 +1,25 @@
+.theme_dark {
+    --bg-color: #171717;
+    --text-color: #B3B3B3;
+    --accent-color: transparent;
+}
+
+.theme_dark .colored-text:after {
+    background-image: url(../images/pattern.svg);
+}
+
+.theme_dark .header__theme-button_is-active {
+    font-weight: 700;
+}
+
+.theme_dark .header__theme-button_is-active:after {
+    background-image: url(../images/pattern.svg);
+}
+
+.theme_dark .content__list li:before {
+    background-image: url(../images/marker-dark.svg);
+}
+
+.theme_dark .content__text-block_type-first-lettered .content__paragraph:first-of-type::first-letter {
+    border: 1px solid currentColor;
+}
