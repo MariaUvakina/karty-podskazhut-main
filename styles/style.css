@@ -1,7 +1,6 @@
 .page {
-  font-family: var(--main-font);
+  font-family: var(--main-font, 'Raleway');
   font-size: 18px;
-  line-height: px;
   color: var(--text-color);
   background-color: var(--bg-color);
 }
