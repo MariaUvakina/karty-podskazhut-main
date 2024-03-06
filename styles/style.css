@@ -18,8 +18,8 @@
 }
 
 .header__title {
-  margin-block-start: clamp(2.25rem, 0rem + 10vw, 9rem);
-  margin-block-end: 40px;
+  padding-block-start: clamp(2.25rem, 0rem + 10vw, 9rem);
+  padding-block-end: 40px;
 }
 
 .header__menu {
